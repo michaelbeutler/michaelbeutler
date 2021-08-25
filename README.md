@@ -1,4 +1,6 @@
-### Hi there 👋, I'm [Michael Beutler!](https://github.com/michaelbeutler/)
+### Hi there 👋, I'm [Michael Beutler!](https://github.com/michaelbeutler/) 
+
+![](https://komarev.com/ghpvc/?username=michaelbeutler&label=Visitors)
 
 #### Talking about Personal Stuffs:
 
