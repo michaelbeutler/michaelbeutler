@@ -55,6 +55,15 @@
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=michaelbeutler&hide_border=true" />
 </details>
 
+#### Challenges and Hackathons
+
+<table>
+ <tr>
+<td><img src="https://user-images.githubusercontent.com/35310806/133099056-15a9c90b-4209-4fc6-8222-74b7c89c219a.png" height="100" /></td>
+<td><img src="https://user-images.githubusercontent.com/35310806/133099231-90c40063-88d4-47bb-9e90-7dcec1ccb55f.png" height="100" /></td>
+ </tr>
+</table>
+
 #
 
 <div align="center">
