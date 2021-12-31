@@ -6,7 +6,7 @@
 
 - 🛠 &nbsp; I’m currently working with Java Spring Boot, React and Kubernetes...
 - 🚀 &nbsp; I’m currently learning Full Stack Development.
-- 👨🏻‍💻 &nbsp; Most of my projects are available on [Github](https://github.com/michaelbeutler).
+- 👨🏻‍💻 &nbsp; Most of my private projects are available on [Github](https://github.com/michaelbeutler).
 - 👾 &nbsp; Fun fact: Equal is Not Always Equal in Javascript.
 
 #### My Absolute Favorites:
