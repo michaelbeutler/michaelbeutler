@@ -14,7 +14,7 @@
 - 💻 &nbsp; I love exploring new tech stack and building cool stuff.
 - 📰 &nbsp; Reading & writing tech blogs whenever possible.
 - 🍕 &nbsp; Hackathons, meetups & tech events.
-- ⛵ &nbsp; Kubernetes!
+- ⛵ &nbsp; Kubernetes & Helm!
 
 #### Languages and Tools:
 
