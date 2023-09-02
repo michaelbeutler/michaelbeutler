@@ -57,7 +57,7 @@
  <tr>
 <td><img src="https://user-images.githubusercontent.com/35310806/133099056-15a9c90b-4209-4fc6-8222-74b7c89c219a.png" height="100" /></td>
 <td><img src="https://user-images.githubusercontent.com/35310806/133099231-90c40063-88d4-47bb-9e90-7dcec1ccb55f.png" height="100" /></td>
-<td><img src="https://pbs.twimg.com/profile_images/1177302206296600576/QVs8cieJ_400x400.jpg" height="100" /></td>
+<td><img src="https://ethz.ch/students/en/news/student-news/2023/06/apply-for-hackzurich-2023-europes-biggest-hackathon/_jcr_content/wide_content/image/image.imageformat.1286.1745370827.png" height="100" /></td>
  </tr>
 </table>
 
