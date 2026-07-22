@@ -1,71 +1,49 @@
-### Hi there 👋, I'm [Michael Beutler!](https://github.com/michaelbeutler/) 
+---
+ref: home
+lang: en
+permalink: /
+title: Helmer
+tagline: Shore zones, speed and anchor watch for Swiss lakes.
+description: Helmer shows the legal Swiss shore zones, your GPS speed and an anchor-drift alarm — on iPhone, iPad, Mac, Apple Watch and CarPlay.
+---
 
-![](https://komarev.com/ghpvc/?username=michaelbeutler&label=Visitors)
+Helmer is a companion app for boat owners on Swiss lakes. It draws the legal
+shore zones of **Art. 53 of the Swiss Inland Navigation Ordinance**
+(SR 747.201.1) around your boat, shows your GPS speed against the 10 km/h limit,
+and watches your anchor while you sleep.
 
-#### Talking about Personal Stuffs:
+<ul class="features">
+  <li><b>⚓️ Anchor watch</b><span>Drop the anchor, set a radius, sleep. Escalates green → amber → red and fires critical alerts that break through Silent mode.</span></li>
+  <li><b>🌊 Shore zones</b><span>The 300 m shore zone and the 150 m inner zone drawn on the chart, with a live banner when you are inside one.</span></li>
+  <li><b>⏱ GPS speedometer</b><span>Analog gauge with the 10 km/h tick, top speed, trip distance, course and GPS accuracy. km/h or knots.</span></li>
+  <li><b>💨 MeteoSwiss wind</b><span>Live 10-minute wind and gust measurements, cached so they survive a dead spot mid-lake.</span></li>
+  <li><b>🗺 Chart details</b><span>Harbours and marinas, boat fuel stations, restricted and bathing areas, locks and weirs, scheduled-ship routes.</span></li>
+  <li><b>⌚️ Watch &amp; CarPlay</b><span>A glanceable zone-coloured speed ring on the wrist, and the chart with a speed HUD in the car.</span></li>
+</ul>
 
-- 🛠 &nbsp; I’m currently working with Java Spring Boot, React and Kubernetes...
-- 🚀 &nbsp; I’m currently learning Full Stack Development.
-- 👨🏻‍💻 &nbsp; Most of my private projects are available on [Github](https://github.com/michaelbeutler).
-- 👾 &nbsp; Fun fact: Equal is Not Always Equal in Javascript.
-
-#### My Absolute Favorites:
-
-- 💻 &nbsp; I love exploring new tech stack and building cool stuff.
-- 📰 &nbsp; Reading & writing tech blogs whenever possible.
-- 🍕 &nbsp; Hackathons, meetups & tech events.
-- ⛵ &nbsp; Kubernetes & Helm!
-
-#### Languages and Tools:
-
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="typescript"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="javascript"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="nodejs"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="expressjs"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" alt="react"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png" alt="kubernetes"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png" alt="graphql"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" alt="sql"></code>
-<code><img height="27" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTTzPAw-55ssm1Im594xYZ9eRQu2JylrkYLg&usqp=CAU" alt="mongodb"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" alt="terminal"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png" alt="angular"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png" alt="java"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="mysql"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png" alt="php"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" alt="cpp"></code>
-<code><img height="27" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"></code>
-
-<!--
-<code><img height="25" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" alt="sass"></code>
--->
-
-#### Projects and Dev Stuffs:
-
-<details>	
-  <summary><b>☄️ Github Streaks</b></summary>
-
-  <br />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=michaelbeutler&hide_border=true" />
-</details>
-
-#### Challenges and Hackathons
-
-<table>
- <tr>
-<td><img src="https://user-images.githubusercontent.com/35310806/133099056-15a9c90b-4209-4fc6-8222-74b7c89c219a.png" height="100" /></td>
-<td><img src="https://user-images.githubusercontent.com/35310806/133099231-90c40063-88d4-47bb-9e90-7dcec1ccb55f.png" height="100" /></td>
- </tr>
-</table>
-
-#### Apps
-
-- ⚓️ &nbsp; **Helmer** — Swiss lake shore zones, GPS speedometer and anchor watch for boat owners. [Support](/support/) · [Privacy Policy](/privacy/)
-
-#
-
-<div align="center">
-
-#### Show some ❤️ by starring some of the repositories!
-
+<div class="cards">
+  <a class="card" href="/support/"><b>Support →</b><span>FAQ, requirements and how to reach me</span></a>
+  <a class="card" href="/privacy/"><b>Privacy Policy →</b><span>No data collected. Here is exactly why</span></a>
 </div>
+
+## Your data stays on your boat
+
+Helmer has no accounts, no analytics and no tracking. Your position and speed
+are processed entirely on your device and are never transmitted. The only thing
+Helmer fetches from the internet is the public MeteoSwiss wind measurement file
+— which tells the server nothing about where you are. See the
+[privacy policy](/privacy/).
+
+## Data sources
+
+- Lake geometry and chart details © [OpenStreetMap](https://www.openstreetmap.org/copyright)
+  contributors ([ODbL](https://opendatacommons.org/licenses/odbl/)). Zone lines
+  are computed from the shoreline at 150 m and 300 m.
+- Wind measurements © [MeteoSwiss](https://www.meteoswiss.admin.ch/), published
+  as Swiss Open Government Data.
+- Maps rendered with Apple MapKit.
+
+> Helmer is an aid, not an official navigational chart. The skipper remains
+> responsible for complying with the law.
+
+Available in English, German, French and Italian.

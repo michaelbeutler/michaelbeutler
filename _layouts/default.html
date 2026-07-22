@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% assign t = site.data.i18n[page.lang] %}
+{% case page.ref %}
+  {% when "support" %}{% assign suffix = "/support/" %}
+  {% when "privacy" %}{% assign suffix = "/privacy/" %}
+  {% else %}{% assign suffix = "/" %}
+{% endcase %}
+<html lang="{{ page.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.ref == "home" %}{{ site.title }} — {{ page.tagline }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="color-scheme" content="light dark">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="icon" href="{{ '/assets/icon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/helmer.css' | relative_url }}">
+  {% for l in site.data.i18n.order %}
+  <link rel="alternate" hreflang="{{ l }}" href="{{ site.data.i18n[l].prefix | append: suffix | absolute_url }}">
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ suffix | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{% if page.ref == 'home' %}{{ site.title }}{% else %}{{ page.title }}{% endif %}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:locale" content="{{ page.lang }}">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="bar">
+    <a class="brand" href="{{ t.prefix | append: '/' | relative_url }}">
+      <img src="{{ '/assets/icon.svg' | relative_url }}" alt="" width="32" height="32">
+      Helmer
+    </a>
+    <nav class="nav">
+      <a href="{{ t.prefix | append: '/' | relative_url }}"{% if page.ref == 'home' %} aria-current="page"{% endif %}>{{ t.home }}</a>
+      <a href="{{ t.prefix | append: '/support/' | relative_url }}"{% if page.ref == 'support' %} aria-current="page"{% endif %}>{{ t.support }}</a>
+      <a href="{{ t.prefix | append: '/privacy/' | relative_url }}"{% if page.ref == 'privacy' %} aria-current="page"{% endif %}>{{ t.privacy }}</a>
+    </nav>
+    <div class="langs">
+      {%- for l in site.data.i18n.order -%}
+        {%- assign li = site.data.i18n[l] -%}
+        {%- if l == page.lang -%}
+          <span aria-current="true">{{ l | upcase }}</span>
+        {%- else -%}
+          <a href="{{ li.prefix | append: suffix | relative_url }}" hreflang="{{ l }}" lang="{{ l }}" title="{{ li.name }}">{{ l | upcase }}</a>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+  </div>
+
+  {% if page.ref == "home" %}
+  <div class="hero">
+    <div class="hero-inner">
+      <img src="{{ '/assets/icon.svg' | relative_url }}" alt="" width="96" height="96">
+      <h1>Helmer</h1>
+      <p>{{ page.tagline }}</p>
+      <p><span class="badge">iPhone · iPad · Mac · Apple Watch · CarPlay</span></p>
+    </div>
+  </div>
+  {% endif %}
+
+  <svg class="waves" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+    <path d="M0,30 C240,2 480,58 720,30 C960,2 1200,58 1440,30 L1440,60 L0,60 Z" fill="var(--bg)"/>
+  </svg>
+</header>
+
+<main{% if page.ref == "home" %} class="wide"{% endif %}>
+  {% if page.ref != "home" %}<h1>{{ page.title }}</h1>{% endif %}
+  {{ content }}
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>⚓️ Helmer — {{ t.made }}</span>
+    <span><a href="mailto:{{ site.support_email }}">{{ site.support_email }}</a></span>
+  </div>
+</footer>
+
+</body>
+</html>

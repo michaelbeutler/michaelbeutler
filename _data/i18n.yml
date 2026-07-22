@@ -1,0 +1,39 @@
+# Navigation chrome per language. Terminology follows the app's own
+# Resources/Localizable.xcstrings, including Swiss German orthography (ss, no ß).
+order: [en, de, fr, it]
+
+en:
+  prefix: ""
+  name: English
+  home: Home
+  support: Support
+  privacy: Privacy
+  made: Made in Switzerland by Michael Beutler
+  contact: Contact
+
+de:
+  prefix: "/de"
+  name: Deutsch
+  home: Start
+  support: Support
+  privacy: Datenschutz
+  made: Hergestellt in der Schweiz von Michael Beutler
+  contact: Kontakt
+
+fr:
+  prefix: "/fr"
+  name: Français
+  home: Accueil
+  support: Assistance
+  privacy: Confidentialité
+  made: Conçu en Suisse par Michael Beutler
+  contact: Contact
+
+it:
+  prefix: "/it"
+  name: Italiano
+  home: Home
+  support: Assistenza
+  privacy: Privacy
+  made: Realizzato in Svizzera da Michael Beutler
+  contact: Contatto

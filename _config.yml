@@ -1,3 +1,20 @@
-theme: jekyll-theme-cayman
-title: Michael Beutler
-description: Software engineer from Switzerland.
+title: Helmer
+description: Swiss lake shore zones, GPS speedometer and anchor watch for boat owners.
+url: https://michaelbeutler.ch
+lang: en
+
+# No gem-based theme: _layouts/default.html and assets/helmer.css are the theme.
+# The palette mirrors Resources/Assets.xcassets in the Helmer app.
+support_email: support@iperka.com
+bundle_id: com.iperka.helmer
+app_version: 1.0.0
+
+defaults:
+  - scope: { path: "" }
+    values: { layout: default, lang: en }
+  - scope: { path: "de" }
+    values: { lang: de }
+  - scope: { path: "fr" }
+    values: { lang: fr }
+  - scope: { path: "it" }
+    values: { lang: it }
