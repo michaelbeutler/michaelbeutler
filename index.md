@@ -58,6 +58,10 @@
  </tr>
 </table>
 
+#### Apps
+
+- ⚓️ &nbsp; **Helmer** — Swiss lake shore zones, GPS speedometer and anchor watch for boat owners. [Support](/support/) · [Privacy Policy](/privacy/)
+
 #
 
 <div align="center">
