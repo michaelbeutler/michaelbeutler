@@ -121,7 +121,7 @@ body {
 .langs span[aria-current="true"] { background: rgba(255, 255, 255, 0.22); color: #FFF; }
 
 /* wave divider, echoing the three waves in the app icon */
-.waves { display: block; width: 100%; height: 26px; margin-top: 0.9rem; }
+.waves { display: block; width: 100%; height: 42px; margin-top: 1.1rem; }
 
 /* ---------- hero ---------- */
 
